@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelDest:Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="images/icon.jpg" alt="Logo" class="logo-img">
+            <span>TravelDest</span>
+        </div>
+        <div class="nav-center">
+            <a href="travel_recommendation.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Enter a destination or keyword...">
+            <img src="images/search.png" alt="Search Icon" class="search-icon">
+            <button onclick="search()">Search</button>
+            <button onclick="resetResults()">Clear</button>
+        </div>
+    </nav>
+    <br>
+    <div class="social-media">
+        <div class="line"></div>
+        <div class="icons">
+            <a href="https://www.facebook.com/IBM/"><img src="images/fb_icon.png" alt="Facebook"></a>
+            <a href="https://twitter.com/IBM/"><img src="images/twt_icon.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/IBM/"><img src="images/insta_icon.png" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/company/ibm/"><img src="images/lin_icon.png" alt="LinkedIn"></a>
+        </div>
+    </div>
+    <div class = "container">
+        <div class="home-content">
+            <div class="intro">
+                <h1>EXPLORE<br>DREAM<br>DESTINATION</h1>
+                <p>It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder</p>
+            </div>
+            
+        </div>
+        <div id="results"></div>
+    </div>
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
